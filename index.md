@@ -4,30 +4,30 @@
 
 ![Image](https://github.com/DatGuy84/git-lab7/blob/main/ssh%20ieng6.png?raw=true)
 
-Keys pressed: ```ssh <space> storgaeide@ieng6.ucsd.edu <enter>``` ssh command allows
+Keys pressed: ```ssh <space> storgaeide@ieng6.ucsd.edu <enter>``` ```ssh``` command allows
 a local device to access a remote server, or my ieng6 account.
 
 ##Step 5: Clone my fork of the repository into my Github Account
 
 ![Image](https://github.com/DatGuy84/git-lab7/blob/main/cloning%20fork.png?raw=true)
 
-Keys pressed: ```git <space> clone <space> <Ctrl-C> <Ctrl-V> <enter>``` git clone makes a copy
+Keys pressed: ```git <space> clone <space> <Ctrl-C> <Ctrl-V> <enter>``` ```git clone``` makes a copy
 of a repository.  This command copied the forked repository of lab7 and placed it in 
 my pc.
 
 ##Step 6: Run the tests to demonstrate they fail
 ![Image](https://github.com/DatGuy84/git-lab7/blob/main/cd%20to%20bash%20test.png?raw=true)
 
-Keys pressed: ```cd <space> lab7-<tab> <enter> bash <space> t<tab> <enter>``` cd changes
-the directory to a certain file.  This changed the directory to the cloned repository.  bash
-runs the test.sh file in the cloned repository.  This runs JUNIT on the ```ListExamplesTests.java```
+Keys pressed: ```cd <space> lab7-<tab> <enter> bash <space> t<tab> <enter>``` ```cd``` changes
+the directory to a certain file.  This changed the directory to the cloned repository.  ```bash```
+runs the ```test.sh``` file in the cloned repository.  This runs JUNIT on the ```ListExamplesTests.java```
 and utilizes tester methods to check the code of ```ListExamples.java```.  This outputs two tests
 being ran and one failing.
 
 ##Step 7: Edit the code to fix the tests
 
 ![Image](https://github.com/DatGuy84/git-lab7/blob/main/vim%20ListExamples.png?raw=true)
-Keys pressed: ```vim <space> L <tab> . <tab> <enter> ``` vim is a text editor that opens up
+Keys pressed: ```vim <space> L <tab> . <tab> <enter> ``` ```vim``` is a text editor that opens up
 the file used as the argument.  Therefore, vim opens up ```ListExamples.java``` and allows
 changes made to the file.
 
@@ -46,11 +46,14 @@ command that saves the changes to the file and quits out of vim.
 
 ![Image](https://github.com/DatGuy84/git-lab7/blob/main/Bash%20Success.png?raw=true)
 
-Keys pressed: ```bash t <tab> ``` This ran the test.sh file and ran the tester files.  The
+Keys pressed: ```bash <space> t <tab> <enter>``` This ran the test.sh file and ran the tester files.  The
 output of the file showed that ```ListExamples.java``` passed.
 
 ##Step 9: Commit and push the changes
 
 ![Image](https://github.com/DatGuy84/git-lab7/blob/main/git%20push.png?raw=true)
 
-Keys pressed: 
+Keys pressed: ```git <space> add L <tab> . <tab> <enter> ``` ```git add``` adds the changes made to the file
+to the staging area.  ```git commit``` stores the output of git add.  ```git push``` puts the changes according to 
+git commit to the remote repository.  These commands saved the changes to the java files and updated
+the remote repository.
