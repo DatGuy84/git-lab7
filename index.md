@@ -1,13 +1,13 @@
-#Lab Report 4 - Vim
+# Lab Report 4 - Vim
 
-##Step 4: Log into ieng6
+## Step 4: Log into ieng6
 
 ![Image](https://github.com/DatGuy84/git-lab7/blob/main/ssh%20ieng6.png?raw=true)
 
 Keys pressed: ```ssh <space> storgaeide@ieng6.ucsd.edu <enter>``` ```ssh``` command allows
 a local device to access a remote server, or my ieng6 account.
 
-##Step 5: Clone my fork of the repository into my Github Account
+## Step 5: Clone my fork of the repository into my Github Account
 
 ![Image](https://github.com/DatGuy84/git-lab7/blob/main/cloning%20fork.png?raw=true)
 
@@ -15,7 +15,7 @@ Keys pressed: ```git <space> clone <space> <Ctrl-C> <Ctrl-V> <enter>``` ```git c
 of a repository.  This command copied the forked repository of lab7 and placed it in 
 my pc.
 
-##Step 6: Run the tests to demonstrate they fail
+## Step 6: Run the tests to demonstrate they fail
 ![Image](https://github.com/DatGuy84/git-lab7/blob/main/cd%20to%20bash%20test.png?raw=true)
 
 Keys pressed: ```cd <space> lab7-<tab> <enter> bash <space> t<tab> <enter>``` ```cd``` changes
@@ -24,7 +24,7 @@ runs the ```test.sh``` file in the cloned repository.  This runs JUNIT on the ``
 and utilizes tester methods to check the code of ```ListExamples.java```.  This outputs two tests
 being ran and one failing.
 
-##Step 7: Edit the code to fix the tests
+## Step 7: Edit the code to fix the tests
 
 ![Image](https://github.com/DatGuy84/git-lab7/blob/main/vim%20ListExamples.png?raw=true)
 Keys pressed: ```vim <space> L <tab> . <tab> <enter> ``` ```vim``` is a text editor that opens up
@@ -42,14 +42,14 @@ x gets rid of the character the cursor is on.  ```x ```delted the 1 of index1.  
 insert mode.  This shortcut allowed me to enter 2.  ```esc``` exited vim's insert mode.  ```:wq``` is a 
 command that saves the changes to the file and quits out of vim.
 
-##Step 8: Run the tests to demonstrate they succeed
+## Step 8: Run the tests to demonstrate they succeed
 
 ![Image](https://github.com/DatGuy84/git-lab7/blob/main/Bash%20Success.png?raw=true)
 
 Keys pressed: ```bash <space> t <tab> <enter>``` This ran the test.sh file and ran the tester files.  The
 output of the file showed that ```ListExamples.java``` passed.
 
-##Step 9: Commit and push the changes
+## Step 9: Commit and push the changes
 
 ![Image](https://github.com/DatGuy84/git-lab7/blob/main/git%20push.png?raw=true)
 
